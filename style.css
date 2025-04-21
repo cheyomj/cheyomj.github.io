@@ -1,0 +1,346 @@
+html{
+    scroll-behavior: smooth;
+        
+        
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1 { font-size: 3.5em;}
+h2 { font-size: 2.7em;}
+h3 { font-size: 2em;}
+p { font-size: 1.25em;}
+ul { list-style: none;}
+li {list-style: 1.25em;}
+
+
+body{
+    font-family: "Nunito", sans-serif;
+    margin: 0;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0 ,0.5);
+    color: white;
+    background-color: green;
+    
+    }
+
+    button:hover{
+        background-color: rgb(86, 145, 86);
+    }
+
+    .container{
+        max-width: 1400px;
+        margin: auto;
+    }
+
+    .color-acentuar{ color: rgb(0, 128, 0);}
+
+
+
+
+    header{
+        background-color: rgb(245, 245, 245);
+
+    }
+
+    header .logo{
+        margin: 0;
+        padding: 25px 30px;
+        font-weight: bold;
+        color: green;
+        font-size: 1.7em;
+    }
+
+    header .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+
+    header a{
+        padding: 5px 12px;
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+    }
+
+    header a:hover{
+        color: green;
+    }
+
+    #game{
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 90vh;
+        color: white;
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+            )
+        ,url("img/fps.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    #game h1{
+        color: white;
+    }
+
+    #logo p .container{
+        background-image: url("img/Logo.png");
+        background-position: center center;
+        margin: 0 auto;
+        display: block;
+    }
+
+    
+
+    #gaming {
+    background-position: center center;
+    text-align: center;
+    margin: 0;
+    display: block;
+    }
+
+    #post {
+        background-position: center center;
+        text-align: center;
+        margin: 0;
+        display: block;
+        }
+    
+    #compe{
+        background-position: center center;
+        text-align: center;
+        margin: 0;
+        display: block;
+    }
+    
+    
+    
+    
+    
+        #nuestros-juegos{
+        background-color: rgb(30, 30, 30);
+        color: white;
+        text-align: center;
+    }
+
+    #nuestros-juegos .container{
+        padding: 150px 12px;
+
+    }
+
+    #nuestros-juegos p{
+        display: none;
+    }
+
+    #nuestros-juegos .carta{
+        padding: 50px 0px;
+        margin: 30px;
+        border-radius: 15px;
+        
+    
+    }
+
+    .carta:first-child{
+        background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+    ,url("img/Lol1.jpg");
+    background-position: center center;
+    background-size: cover;
+
+    }
+
+    .carta:nth-child(2){
+        background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+    ,url("img/Fps3.png");
+    background-position: center center;
+    background-size: cover;
+
+    }
+
+    .carta:nth-child(3){
+        background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+    ,url("img/Valorant1.jpg");
+    background-position: center center;
+    background-size: cover;
+
+    }
+
+    .carta:nth-child(4){
+        background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+        )
+    ,url("img/Rainbow1.jpg");
+    background-position: center center;
+    background-size: cover;
+
+    }
+
+    #caracteristicas .container{
+        text-align: center;
+        padding: 200px 12px;
+    }
+
+    #caracteristicas li{
+        margin: 16px 0px;
+        font-weight: bold;
+
+    }
+
+    #final{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        background-color: rgb(30, 30, 30);
+        color:white
+        
+    }
+
+    #final h2{
+        font-size: 5vw;
+    }
+
+    #final button{
+        font-size: 2.75em;
+    }
+
+    footer{
+        background-color: rgb(230, 230, 230);
+    }
+
+    footer p{
+        margin: 0;
+        color: rgb(100, 100, 100);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 150px;
+    }
+
+    footer .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 150px;
+        justify-content: center;
+        align-items: flex-end;
+        color: white;
+    }
+
+    @media (min-width: 720px){
+        header{
+            position: fixed;
+            width: 110%;
+        }
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+        }
+
+    #nuestros-juegos .games{
+        display: flex;
+        justify-content: center;
+    }
+
+    #nuestros-juegos p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #nuestros-juegos h3{
+        margin-top: 0;
+    }
+
+    #nuestros-juegos .carta{
+        padding: 15px;
+    }
+
+    footer .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        height: 150px;
+        justify-content: center;
+        align-items: flex-end;
+        color: white;
+    }
+
+    footer section{
+        float: right;
+        margin: 0;
+    }
+
+    footer a{
+        color: black;
+        text-decoration: none;
+        text-align: center;
+    }
+
+    footer p{
+        margin: 0;
+        color: rgb(100, 100, 100);
+        display: flex;
+        align-items: center;
+        justify-content: last baseline;
+        text-align: left;
+        flex-direction: column;
+        height: 150px;
+    }
+
+    
+
+    
+
